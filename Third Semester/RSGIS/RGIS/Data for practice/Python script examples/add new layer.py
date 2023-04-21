@@ -1,0 +1,11 @@
+vlayer = QgsVectorLayer('Point?crs=EPSG:4326', 'point', 'memory')
+
+provider = vlayer.dataProvider()
+provider.addAttributes([QgsField('name', QVariant.String)])
+vlayer.updateFields() 
+f = QgsFeature()
+f.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(-122.41, 37.77)))
+f.setAttributes(['Kathmandu'])
+provider.addFeature(f)
+vlayer.updateExtents() 
+QgsProject.instance().addMapLayer(vlayer)

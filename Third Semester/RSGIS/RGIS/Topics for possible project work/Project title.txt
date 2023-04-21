@@ -1,0 +1,13 @@
+1. Estimation of rooftop solar potential of KMC using QGIS and satellite image
+
+2. GIS based Optimal route planning for waste vehicles for efficient waste collection in KTMV
+
+3. Real-time smart waste collection bin mechanism for effective solid waste management in KTMV
+
+4. Suitability analysis of alternative sites for waste disposal using QGIS and AHP in City...
+
+5. Smart waste collection bin monitoring using android and real time database
+
+6. A smart approach for the optimal location of recycling bins in KMC
+
+7. Estimation of Rooftop Rainwater Harvesting potential in KMC using GIS 
